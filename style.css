@@ -6,13 +6,13 @@ h1{
     font-size: 50px;
 }
 .blue-color{
-    color: blue;
+    color: #332e79;
     border-radius: 20px;
 
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .half-width{
     width:50%;
@@ -22,7 +22,7 @@ h1{
 
 }
 .half-width img{
-    width: 70%;
+    width: 65%;
 }
 .link-button{
     text-decoration: none;
@@ -41,8 +41,8 @@ h2{
 }
 #left-line
 {
-    border-left: 7px solid;
-    border-image: linear-gradient(salmon,tomato);
+    border-left: 8px solid;
+    border-image: linear-gradient(orange,tomato);
     border-image-slice: 1;
 }
 .gray-color{
@@ -67,6 +67,16 @@ h2{
     border-radius: 20;
 
 }
+.l-background{
+    background-image:url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:300px ;
+}
+.img-margin{
+    
+    margin-left: 17%;
+}
 .fbg{
     
     background-color: black;
@@ -78,4 +88,10 @@ h2{
 }
 .text-align{
     text-align: center;
+}
+.background-img{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: bottom right;
 }
